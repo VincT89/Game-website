@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script type="text/javascript" src="js.js" async></script>
+</head>
+
+<body>
+<!-- header-navbar -->
+  <header>
+    <a href="" class="logo">Gamer</a>
+    <ul class="nav active">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#games">Games</a></li>
+      <li><a href="#tournaments">Tournaments</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="action">
+      <div class="searchBx">
+        <a href=""><i class='bx bx-search'></i> </a>
+        <input type="text" placeholder="Search Games">
+      </div>
+    </div>
+    <div class="toggleMenu active" onclick="toggleMenu()"></div>
+  </header>
+
+  <!-- banner -->
+  <div class="banner " id="home">
+    <div class="bg">
+      <div class="content">
+        <h2>A New Home for <br>
+          Game Lovers</h2>
+        <p>Play the best games in the world</p>
+        <a href="" class="btn">Join Now</a>
+      </div>
+      <img src="img/Assassins-Creed-PNG 1.jpg" alt="">
+    </div>
+  </div>
+  <!-- about us -->
+  <div class="about" id="about">
+    <div class="contentBx">
+      <h2>About Us</h2>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit
+        lorem ipsum dolor sit amet consectetur adipisicing elit
+        lorem ipsum dolor sit amet consectetur adipisicing elit
+      </p>
+      <a href="">Read more</a>
+    </div>
+    <img src="img/console.png" alt="">
+  </div>
+<!-- games -->
+  <div class="games" id="games">
+    <h2>Popular Games</h2>
+    <ul>
+      <li class="list active" data-filter="all">All</li>
+      <li class="list" data-filter="pc">Pc</li>
+      <li class="list" data-filter="console">Console</li>
+    </ul>
+    <div class="cardBx">
+      <div class="card" data-item="pc">
+        <img src="img/gta game.jpg" alt="">
+        <div class="content">
+          <h4>Grand Theft Auto VI</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <p>Princing <br><span>$100</span></p>
+            <a href="">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" data-item="pc">
+        <img src="img/Batman-Arkham-Knight-Game-of-the.jpg" alt="">
+        <div class="content">
+          <h4>Batman Arkham Knight</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <p>Princing <br><span>$100</span></p>
+            <a href="">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" data-item="pc">
+        <img src="img/assassin.jpg" alt="">
+        <div class="content">
+          <h4>Assassin's Creed The Fall</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <p>Princing <br><span>$100</span></p>
+            <a href="">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" data-item="console">
+        <img src="img/Assassins_Creed_Valhalla.jpg" alt="">
+        <div class="content">
+          <h4>Assassin's Creed Valhalla</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <p>Princing <br><span>$100</span></p>
+            <a href="">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" data-item="console">
+        <img src="img/spiderman.jpg" alt="">
+        <div class="content">
+          <h4>Spider-man</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <p>Princing <br><span>$100</span></p>
+            <a href="">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" data-item="pc">
+        <img src="img/220px-Cyberpunk_2077.jpg" alt="">
+        <div class="content">
+          <h4>Cyberpunk</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <p>Princing <br><span>$80</span></p>
+            <a href="">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" data-item="console">
+        <img src="img/Red_Dead_Redemption_II.jpg" alt="">
+        <div class="content">
+          <h4>Red Dead Redemption II</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <p>Princing <br><span>$100</span></p>
+            <a href="">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" data-item="pc">
+        <img src="img/palworld-1.jpg" alt="">
+        <div class="content">
+          <h4>Palworld</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <p>Princing <br><span>$100</span></p>
+            <a href="">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" data-item="pc">
+        <img src="img/call of duty.jpg" alt="">
+        <div class="content">
+          <h4>Call of Duty</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <p>Princing <br><span>$100</span></p>
+            <a href="">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" data-item="console">
+        <img src="img/EGS_GodofWar_.jpg" alt="">
+        <div class="content">
+          <h4>God of War</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <p>Princing <br><span>$100</span></p>
+            <a href="">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" data-item="console">
+        <img src="img/EGS_EASPORTSFC24UltimateEdition.jpg" alt="">
+        <div class="content">
+          <h4>FC 24</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <p>Princing <br><span>$100</span></p>
+            <a href="">Play Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" data-item="pc">
+        <img src="img/Minecraft-300x465.jpg" alt="">
+        <div class="content">
+          <h4>Minecraft</h4>
+          <div class="progress-line"><span></span></div>
+          <div class="info">
+            <p>Princing <br><span>$100</span></p>
+            <a href="">Play Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- tournament -->
+  <div class="tournaments" id="tournaments">
+    <h2>Live Tournaments</h2>
+    <div class="boxBx">
+      <div class="box">
+        <img src="img/tournament1.jpg" alt="">
+        <div class="content">
+          <h4><span>50</span>   Matches in progress....</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sapiente, tempore molestias quaerat ad animi sed. Eum nam, aspernatur ipsam quas libero itaque impedit laboriosam facilis, animi ipsa earum cupiditate?</p>
+          <div class="btn">
+            <a href="" class="watch">Watch</a>
+            <a href="" class="join">Join Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/tournament3.jpg" alt="">
+        <div class="content">
+          <h4><span>20</span>   Matches in progress....</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sapiente, tempore molestias quaerat ad animi sed. Eum nam, aspernatur ipsam quas libero itaque impedit laboriosam facilis, animi ipsa earum cupiditate?</p>
+          <div class="btn">
+            <a href="" class="watch">Watch</a>
+            <a href="" class="join">Join Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/tournament2.jpg" alt="">
+        <div class="content">
+          <h4><span>60</span>   Matches in progress....</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sapiente, tempore molestias quaerat ad animi sed. Eum nam, aspernatur ipsam quas libero itaque impedit laboriosam facilis, animi ipsa earum cupiditate?</p>
+          <div class="btn">
+            <a href="" class="watch">Watch</a>
+            <a href="" class="join">Join Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- contact -->
+  <div class="contact" id="contact">
+    <img src="img/postazione-da-gaming.jpg" alt="">
+    <div class="form">
+      <h1>Contact Us</h1>
+      <div class="inputBx">
+        <p>Enter Name</p>
+        <input type="text" placeholder="Full Name">
+      </div>
+      <div class="inputBx">
+        <p>Enter Email</p>
+        <input type="text" placeholder="Email">
+      </div>
+      <div class="inputBx">
+        <p>Message</p>
+        <textarea placeholder="Type here..."></textarea>
+      </div>
+      <div class="inputBx">
+        <input type="submit" name="Submit">
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer>
+<div class="info">
+  <a href="" class="logo">Gamer</a>
+  <p><i class='bx bx-copyright'></i> 2024 All Rights Reserved</p>
+  <ul>
+    <li><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+    <li><a href=""><i class='bx bxl-instagram-alt'></i></a></li>
+    <li><a href=""><i class='bx bxl-youtube'></i></a></li>
+    <li><a href=""><i class='bx bxl-linkedin-square'></i></a></li>
+  </ul>
+</div>
+  
+</body>
+
+</html>
